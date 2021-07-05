@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>english-for-kids</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;display=swap" rel="stylesheet">
+</head>
+
+<body id = "body">
+    <div id = "root">
+        <div class="app-container">
+            <div class="header-container">
+                <nav role="navigation">
+                    <div class="menuToggle">
+                        <input type="checkbox" class = "checkbox">
+                        <span class= "span1"></span>
+                        <span class= "span2"></span>
+                        <span class= "span3"></span>
+                        <ul class="menu green" id= "menu">
+                            <a class="header-item activ" href="#/" value="main">Main Page</a>
+                            <a class="header-item" href="#/cards" value="actionA">Action (set A)</a>
+                            <a class="header-item" href="#/cards" value="actionB">Action (set B)</a>
+                            <a class="header-item" href="#/cards" value="body">Body</a>
+                            <a class="header-item" href="#/cards" value="space">Space</a>
+                            <a class="header-item" href="#/cards" value="animalA">Animal (set A)</a>
+                            <a class="header-item" href="#/cards" value="animalB">Animal (set B)</a>
+                            <a class="header-item" href="#/cards" value="clothes">Clothes</a>
+                            <a class="header-item" href="#/cards" value="emotions">Emotions</a>
+                        </ul>
+                    </div>
+                </nav>
+                             
+                <div class="switch-container">
+                    <label class="switch">
+                        <input type="checkbox" class="switch-input" checked="">
+                        <span class="switch-label" data-on="Train" data-off="Play"></span>
+                        <span class="switch-handle"></span>
+                    </label>
+                </div>
+            </div>
+            
+            <div class="container main-container" id="containerCard">
+                <a class="main-card greeen" href="#/cards">
+                    <img src="./img/main/dance.jpg" alt="Action (set A)" value="actionA"> Action (set A)
+                </a>
+                <a class="main-card greeen" href="#/cards">
+                    <img src="./img/main/swim.jpg" alt="Action (set B)"value="actionB">Action (set B)
+                </a>
+                <a class="main-card greeen" href="#/cards">
+                    <img src="./img/main/body.jpg" alt="body"value="body">Body
+                </a>
+                <a class="main-card greeen" href="#/cards">
+                    <img src="./img/main/space.jpg" alt="Space"value="space">Space</a>
+                <a class="main-card greeen" href="#/cards">
+                    <img src="./img/main/cat.jpg" alt="Animal (set A)"value="animalA">Animal (set A)</a>
+                <a class="main-card greeen" href="#/cards">
+                    <img src="./img/main/dolphin.jpg" alt="Animal (set B)" value="animalB">Animal (set B)
+                </a>
+                <a class="main-card greeen" href="#/cards">
+                    <img src="./img/main/blouse.jpg" alt="Clothes"value="clothes">Clothes
+                </a>
+                <a class="main-card greeen" href="#/cards">
+                    <img src="./img/main/smile.jpg" alt="Emotion"value="emotions">Emotions
+                </a>
+            </div>
+            
+            <audio class = "audio" > </audio>
+            <audio class="soundEffects"></audio>
+        </div>
+    </div>
+</body>
+</html>

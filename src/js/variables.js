@@ -1,0 +1,12 @@
+export const SWITCHINPUT = document.querySelector('.switch-input');
+export const MAINCONTAINER = document.querySelector('.container');
+export const CHECKBOX = document.querySelector('.switch-input');
+export const containerCard = document.getElementById('containerCard');
+export const containerMain = containerCard.innerHTML;
+export const audioEffects = document.querySelector('.soundEffects');
+export const MENU = document.getElementById('menu');
+export const audiovalue = [];
+export const audioSet = [];
+export const errorcounter = 0;
+localStorage.setItem('sexesAnswers', 0);
+localStorage.setItem('wrongAnswers', 0);
