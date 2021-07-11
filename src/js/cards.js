@@ -114,49 +114,49 @@ const cards = [
       word: 'mouth',
       translation: 'рот',
       image: 'img/body/mouth.jpg',
-
+      audioSrc: 'audio/mouth.mp3',
     },
     {
       word: 'nose',
       translation: 'нос',
       image: 'img/body/nose.jpg',
-
+      audioSrc: 'audio/nose.mp3',
     },
     {
       word: 'eyes',
       translation: 'глаза',
       image: 'img/body/eyes.jpg',
-
+      audioSrc: 'audio/eyes.mp3',
     },
     {
-      word: 'ear',
+      word: 'ears',
       translation: 'уши',
       image: 'img/body/ears.jpg',
-
+      audioSrc: 'audio/ears.mp3',
     },
     {
       word: 'hair',
       translation: 'волосы',
       image: 'img/body/hair.jpg',
-
+      audioSrc: 'audio/hair.mp3',
     },
     {
       word: 'arms',
       translation: 'руки',
       image: 'img/body/arms.jpg',
-
+      audioSrc: 'audio/arms.mp3',
     },
     {
       word: 'legs',
       translation: 'ноги',
       image: 'img/body/legs.jpg',
-
+      audioSrc: 'audio/legs.mp3',
     },
     {
       word: 'back',
       translation: 'спина',
       image: 'img/body/back.jpg',
-
+      audioSrc: 'audio/back.mp3',
     },
   ],
 
