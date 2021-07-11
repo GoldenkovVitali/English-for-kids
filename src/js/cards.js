@@ -180,10 +180,10 @@ const cards = [
       audioSrc: 'audio/stars.mp3',
     },
     {
-      word: 'planet',
+      word: 'planets',
       translation: 'планеты',
       image: 'img/space/solar.jpg',
-      audioSrc: 'audio/solar.mp3',
+      audioSrc: 'audio/planets.mp3',
     },
     {
       word: 'moon',
