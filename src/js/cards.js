@@ -165,49 +165,49 @@ const cards = [
       word: 'sun',
       translation: 'солнце',
       image: 'img/space/sun.jpg',
-
+      audioSrc: 'audio/sun.mp3',
     },
     {
       word: 'earth',
       translation: 'планета земля',
       image: 'img/space/earth.jpg',
-
+      audioSrc: 'audio/earth.mp3',
     },
     {
       word: 'stars',
       translation: 'звезды',
       image: 'img/space/stars.jpg',
-
+      audioSrc: 'audio/stars.mp3',
     },
     {
       word: 'planet',
       translation: 'планеты',
       image: 'img/space/solar.jpg',
-
+      audioSrc: 'audio/solar.mp3',
     },
     {
       word: 'moon',
       translation: 'луна',
       image: 'img/space/moon.jpg',
-
+      audioSrc: 'audio/moon.mp3',
     },
     {
       word: 'rocket',
       translation: 'ракета',
       image: 'img/space/rocket.jpg',
-
+      audioSrc: 'audio/rocket.mp3',
     },
     {
       word: 'spaceman',
       translation: 'космонавт',
       image: 'img/space/spaceman.jpg',
-
+      audioSrc: 'audio/spaceman.mp3',
     },
     {
       word: 'satellite',
       translation: 'спутник',
       image: 'img/space/satellite.jpg',
-
+      audioSrc: 'audio/satellite.mp3',
     },
   ],
   [
